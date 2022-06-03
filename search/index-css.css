@@ -1,0 +1,109 @@
+/*h1 {
+    font-size: 42pt;
+    margin: 5px;
+    color: blue;
+}*/
+
+h2 {
+    margin: 30px 0px 10px 47px;
+  }
+
+.my {
+    color:rgb(1, 11, 146);
+    margin: 5px;
+    font-size: 42pt;
+}
+.google {
+    color: rgb(0, 0, 99);
+    margin: 5px;
+    font-size: 42pt;
+}
+
+
+.vertical-center {
+    margin-top: 150px;
+}
+
+body {
+    font-family: arial,sans-serif;;
+    color: #202124;
+}
+
+.navbar {
+    text-align: right;
+  }
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+.navbar a {
+    color:rgba(0,0,0,.87)
+}
+.navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
+    text-decoration: none;
+}
+.navbar a:active, .navbar a:hover {
+    text-decoration: underline;
+}
+.searchbar {
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+  }
+
+.searchbutton {
+   /* background-color: #f8f9fa31; */
+     color: rgb(58, 56, 56);
+    border-style: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+}
+
+.searchbutton:hover, .searchbutton:focus, .searchbutton:hover {
+    box-shadow: 0 0 1px 1px #6b6969;
+    outline: none;
+}
+/* Searchbar stays the same when window gets smaller*/
+@media only screen and (max-width: 550px) {
+    .searchbar {
+      width: 90%;
+    }
+}
+
+.adv-searchbar {
+    border-radius: 5px;
+  display: block;
+  margin: 7px;
+  padding: 7px;
+  width: 500px;
+}
+
+.text-input-table tr td .searchbutton {
+    float: right;
+    background-color: #4D90FE;
+    color: #FFFFFF;
+  }
+
+  .text-input-table {
+    margin: 15px 45px;
+  }
+  .text-input-table tr {
+    font-size: 10pt;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .adv-searchbar {
+      width: 190px;
+    }
+}
+
+.mygoogle {
+    color: rgb(5, 5, 85);
+}
