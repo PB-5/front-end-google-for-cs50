@@ -1,5 +1,6 @@
 # Front end Google for cs50
 My version of google search engine created using html &amp; css.
+<br></br>
 Resources include: Google code source, stackoverflow for search engine query and web3 for css styling.
 
 URL format for advanced search:
